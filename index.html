@@ -16,49 +16,55 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">Acelin German Shepherds</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-4">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="/about.html">About</a>
-                        </li>
-                        <li class="nav-item mx-2 dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Our Dogs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/puppies.html">Puppies</a></li>
-                                <li><a class="dropdown-item" href="/studs.html">Studs</a></li>
-                                <li><a class="dropdown-item" href="/dams.html">Dams</a></li>
-                                <li><a class="dropdown-item" href="/adults.html">Adults for Sale</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <div id="header-photo"><img src="/images/header.jpg" alt="Acelin German Shepherds" width="100%" /></div>
+    
+    <header class="sticky-top">
+        <nav-component></nav-component>
     </header>
 
-    <main>
-        <h1 class="m-3">Home</h1>
+    <main class="m-5">
+        <h1>Home</h1>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td><img class="photo" src="images/puppy_happy_walk_s.jpg" alt="Puppy Prancing" height="199" /></td>
+                    <td><img class="photo" src="images/puppies_standing_sitting_s.jpg"
+                            alt="Puppies Standing and Sitting" height="174" /></td>
+                    <td><img class="photo" src="images/puppy_by_rock_s.jpg" alt="Puppy by a Rock" height="178" /></td>
+                    <td><img class="photo" src="images/puppy_female_looking_up_s.jpg" alt="Puppy looking Up"
+                            height="176" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="center"><b>Contact Us:</b><br /> Angie Norton<br /> (360) 539-8981<br /> <a
+                href="mailto:angiepol@aol.com">angiepol@aol.com</a></p>
+        <div style="background: url('/images/rainier_2.jpg'); height: 280px; padding: 10px 10px;">
+            <p><b>Welcome to Acelin German Shepherds.</b></p>
+            <p>We are small kennel located in the town of Yelm, Washington. Our dogs spend most of the time in the
+                freedom of our back yard. We bring the best lines from Europe, usually daughters and sons of VA1 like
+                Ober von Bad Boll or 2X VA1 Vegas du Haut Mansard. Our female from Ober just won first place in her
+                first show and is a very promising dog. Our stud who is the son of Vegas just got SG2 and he is very
+                promising and is being titled at this time. We are a new breeder in this area but we bring 48 years of
+                experience from Europe in German Shepherd breeding. All of our dogs are show and breeding quality as
+                well as wonderful companions for any family.</p>
+        </div>
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td valign="middle"><img src="images/puppy_praying_ears_s.jpg" alt="Puppy with praying ears"
+                            width="134" height="193" /></td>
+                    <td valign="middle"><img src="images/puppy_with_duck.jpg" alt="Puppy with a Duck" width="231"
+                            height="195" /></td>
+                    <td valign="middle"><img src="images/puppy_strutting_her_stuff.jpg" alt="Puppy Strutting Her Stuff"
+                            width="223" height="195" /></td>
+                    <td valign="middle"><img src="images/puppy_son_of_igo.jpg" alt="Puppy Son of Igo" width="140"
+                            height="202" /></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
-    <footer></footer>
+    <footer-component></footer-component>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -66,6 +72,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script src="/components/nav.js"></script>
+    <script src="/components/footer.js"></script>
 </body>
 
 </html>

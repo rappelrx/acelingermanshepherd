@@ -6,7 +6,8 @@
     <title>About | Acelin German Shepherds</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="We bring the best German Shepherd lines from Europe and though we are a new breeder in this area we bring 48 years of experience from Europe in German Shepherd breeding." />
+    <meta name="description"
+        content="We bring the best German Shepherd lines from Europe and though we are a new breeder in this area we bring 48 years of experience from Europe in German Shepherd breeding." />
     <meta name="keywords" content="european german shepherds, german shepherd breeder" />
     <link rel="icon" href="/images/igo_head_shot_menu.jpg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -14,49 +15,51 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">Acelin German Shepherds</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mx-4">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" aria-current="page" href="/about.html">About</a>
-                        </li>
-                        <li class="nav-item mx-2 dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Our Dogs
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/puppies.html">Puppies</a></li>
-                                <li><a class="dropdown-item" href="/studs.html">Studs</a></li>
-                                <li><a class="dropdown-item" href="/dams.html">Dams</a></li>
-                                <li><a class="dropdown-item" href="/adults.html">Adults for Sale</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <div id="header-photo"><img src="/images/header.jpg" alt="Acelin German Shepherds" width="100%" /></div>
+    
+    <header class="sticky-top">
+        <nav-component></nav-component>
     </header>
 
-    <main>
-        <h1 class="m-3">About Us</h1>
+    <main class="m-5">
+        <h1>About Us</h1>
+        <table border="0" cellpadding="7" cellspacing="7">
+            <tbody>
+                <tr>
+                    <td valign="middle" align="center" width="225">
+                        <p class="center">
+                            <img src="/images/bloodlines.png" alt="champion bloodline" height="31" width="174">
+                        </p>
+                    </td>
+                    <td valign="middle" width="200">
+                        <p class="center">
+                            <img alt="Acelin German Shepherd Puppies" src="/images/puppies002.jpg" />
+                        </p>
+                    </td>
+                    <td valign="middle" align="center" width="225">
+                        <p class="center">
+                            <img src="/images/bloodlines.png" alt="champion bloodline" height="31" width="174">
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>We are located in beautiful Yelm, Washington. At Acelin German Shepherds we strive to provide the best
+            temperament with world class bloodlines to produce the best protection and family companion. Our goal is to
+            maintain the German Shepherd excellent breed by bringing together the highest quality of show and working
+            lines directly from Europe.&nbsp; All of our German Shepherd puppies come with health guarantee.</p>
+        <p>This magnificent dog its known for its beauty, loyalty, athletic ability and its desire and love to work. The
+            German Shepherd excels at the sport of Schutzhund and is also well known for military and police work.</p>
+        <p>More importantly German Shepherd is recognized for its loyalty and dedication to their family. They are
+            natural protectors, love children and are faithful companion.</p>
+        <p>Come visit us and pick up a puppy that is right for you. Our puppies come with health guarantee and AKC
+            registration papers. We can also ship your puppy to you anywhere in the world depending on your country
+            requirements.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p style="text-align: right;">&nbsp;</p>
+        <p style="text-align: right;">&nbsp;</p>
     </main>
 
-    <footer></footer>
+    <footer-component></footer-component>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -64,6 +67,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script src="/components/nav.js"></script>
+    <script src="/components/footer.js"></script>
 </body>
 
 </html>
